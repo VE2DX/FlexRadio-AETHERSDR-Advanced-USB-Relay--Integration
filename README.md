@@ -1,4 +1,4 @@
-# AETHERSDR-SDI-integration
+# AETHERSDR-Advanced-USB-Relay-Integration
 
 Proposed changes in AETHERSDR of USB Relay integration.
 
