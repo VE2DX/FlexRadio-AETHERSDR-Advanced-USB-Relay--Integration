@@ -48,11 +48,15 @@ The present approach by **FlexRadio** in the latest version, as of this document
 
 <img width="472" height="381" alt="image" src="https://github.com/user-attachments/assets/0317f9a2-b919-44ce-8e38-092fe5832ca1" />
 
-#### 3.1.2- The present support of USB chipsets in the radios OS is very limited. Only 
+#### 3.1.3- The present support of USB chipsets in the radios OS is very limited. Only 
 
 
-### 3.1- AETHERSDR present approach.
+### 3.2- AETHERSDR present approach.
 
 _Insert Image here_
 
-At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its begining being in the early days of the project. it as a couple of bugs that will be pointed out in this document that are probably related to the fact that the 
+At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its begining being in the early days of the project. it has a couple of bugs that will be pointed out in this document that are probably related to the fact that this portion of the project is not finished.
+
+#### 3.2.1- In the present AETHERSDR USB popup screen shown above, the _BIT_ column indicating the relay being used, is way to wide this should be only three characters wide.
+
+Todo: Change the **_BIT_** column to 3 characters wide.
