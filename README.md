@@ -4,7 +4,7 @@
 
 00.01.15 May 24th, 2026 by Richard VE2DX 
 
-**References;** 
+## References;
 
 **AETHERSDR** Vers.: 26.5.2.1, Mai 2026
 
