@@ -27,7 +27,7 @@ This project for the USB relay interfacing as a possible advanced evolution, and
 
 If FlexRadio is interrested in the principles stated in this document they must contact the author for authorisation to implementation in their hardwares, firmware and/or softwares.
 
-While the **FlexRadio** integration of the 8-bit USB Relay PCB offers a great, low-cost, simple interface, the USB-based relay integration for antenna and other automated control, it lacks some badly needed improvements. Among those;
+While the **FlexRadio** integration of the 8-bit USB Relay PCB offers a great, low-cost, simple interface, for the integration for antenna and other automated control, it lacks some badly needed improvements and flexibilities. Among those;
 
 #### - The possibility to assign multiple bands or frequency ranges to a single relay output to address multiband antennas like a common 80/40 dipole or the very common tribander yagi.
 
