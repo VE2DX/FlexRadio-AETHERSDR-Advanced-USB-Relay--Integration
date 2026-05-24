@@ -60,7 +60,9 @@ At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its
 ### BUGS:
 
 **Bug 1:** The Band/Frequency field (last column) does not work.
+
 **Bug 2:** If enter is keyed at anytime within the window, the USB Cables window crashes and can only be recalled if the AETHERSDR is closed and restarted.
+
 **Bug 3:** The **EN (Enable)** selection can not be selected from the Keyboard (Only from the mouse).
 
 #### 3.2.1- In the present AETHERSDR USB popup screen shown above, the _BIT_ column indicating the relay being used, is way to wide this should be only three characters wide.
