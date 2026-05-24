@@ -58,37 +58,60 @@ The present approach by **FlexRadio** in the latest version, as of this document
 At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its begining being in the early days of the project. it has a couple of bugs that will be pointed out in this document that are probably related to the fact that this portion of the project is not finished.
 
 ### BUGS:
+- **Bug 1:** The Band/Frequency field (last column) does not work.
+- **Bug 2:** If enter is keyed at anytime within the window, the USB Cables window crashes and can only be recalled if the AETHERSDR is closed and restarted.
+- **Bug 3:** The **EN (Enable)** selection can not be selected from the Keyboard (Only from the mouse).
 
-**Bug 1:** The Band/Frequency field (last column) does not work.
+#### 3.2.1- (1) In the present AETHERSDR USB popup screen shown above, the _BIT_ column indicating the relay being used, is way to wide this should be only three characters wide.
 
-**Bug 2:** If enter is keyed at anytime within the window, the USB Cables window crashes and can only be recalled if the AETHERSDR is closed and restarted.
+**Todo**: 
+- Change the **_BIT_** column to 3 characters wide.
 
-**Bug 3:** The **EN (Enable)** selection can not be selected from the Keyboard (Only from the mouse).
+#### 3.2.2- (2) In the present AETHERSDR USB popup screen shown above, the _EN_ (Enable) column indicating the relay being used, is way to wide this should be only three characters wide.
 
-#### 3.2.1- In the present AETHERSDR USB popup screen shown above, the _BIT_ column indicating the relay being used, is way to wide this should be only three characters wide.
+**Todo**: 
+- Change the **_EN_ (Enable)** column to 3 characters wide.
 
-**Todo**: Change the **_BIT_** column to 3 characters wide.
+#### 3.2.3- (3) In the present AETHERSDR USB popup screen shown above, the _EN_ (Enable) column indicating the relay being used, does not have any clear indicator to the position of the BOX, this box should be framed.
 
-#### 3.2.2- In the present AETHERSDR USB popup screen shown above, the _EN_ (Enable) column indicating the relay being used, is way to wide this should be only three characters wide.
+**Todo**: 
+- Frame the **_EN_ (Enable)** boxes to make their presence more obvious.
 
-**Todo**: Change the **_EN_ (Enable)** column to 3 characters wide.
+#### 3.2.4- (6) Add to the _Cable Setting_ area a new pulldown menu titled _MODE_, this should trigger a pulldown menu with the following options; Manual, SO2R
 
-#### 3.2.3- In the present AETHERSDR USB popup screen shown above, the _EN_ (Enable) column indicating the relay being used, does not have any clear indicator to the position of the BOX, this box should be framed.
+**Todo**: 
+- Add to the **Cable Setting** area a new pulldown menu titled **MODE**.
+- This should trigger a pulldown menu with the following options; Manual, SO2R.
+- By default the Manual should be shown.
+- Once changed the new selection should always be shown and remembered.
 
-**Todo**: Frame the **_EN_ (Enable)** boxes to make their presence more obvious.
+#### 3.2.5- (6) If in the _Cable Setting_ area a new pulldown menu titled _MODE_ is in SO2R mode, the SOURCE column (4) should be removed and replaced by 3.2.8. The SOURCE column (4) should only be displayed if the THE _MODE_ setting is set to Manual.
 
-#### 3.2.4- Add to the _Cable Setting_ area a new pulldown menu titled _MODE_, this should trigger a pulldown menu with the following options; Manual, SO2R
+**Todo**: 
+- Remove the SOURCE column (4) and replaced by 3.2.8 if the **Cable Setting** new pulldown menu titled **MODE** 3.2.4, is set to SO2R.
+- Display the SOURCE column (4) and replaced by 3.2.8 if the **Cable Setting** new pulldown menu titled **MODE** 3.2.4, is set to Manual.
+- By default the Manual should be shown.
+- Once changed the new selection should always be shown and remembered.
 
-**Todo**: Add to the **Cable Setting** area a new pulldown menu titled **MODE**, this should trigger a pulldown menu with the following options; Manual, SO2R.  By default the Manual should be shown, once changed the new selection should always be shown and remembered.
+#### 3.2.6- Add to the _Cable Setting_ area a new pulldown menu titled _MODE_, this should trigger a pulldown menu with the following options; Manual, SO2R
 
-#### 3.2.5- Add to the _Cable Setting_ area a new pulldown menu titled _MODE_, this should trigger a pulldown menu with the following options; Manual, SO2R
+**Todo**: 
 
-**Todo**: Add to the **Cable Setting** area a new pulldown menu titled **MODE**, this should trigger a pulldown menu with the following options; Manual, SO2R.  By default the MANUAL should be shown, once changed the new selection should always be shown and remembered.
+- Add to the **Cable Setting** area a new pulldown menu titled **MODE**.
+- This should trigger a pulldown menu with the following options; Manual, SO2R.
+- By default the MANUAL should be shown.
+- Once changed the new selection should always be shown and remembered.
 
-#### 3.2.6- Add to the _Cable Setting_ area a new pulldown menu titled _SO2R Mode_, this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF)
+#### 3.2.7- Add to the _Cable Setting_ area a new pulldown menu titled _SO2R Mode_, this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF)
 
-**Todo**: Add to the **Cable Setting** area a new pulldown menu titled **SO2R MODE**, this should this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF). By default the ANTENNA should be shown, once changed the new selection should always be shown and remembered.
+**Todo**: 
+- Add to the **Cable Setting** area a new pulldown menu titled **SO2R MODE**.
+- This should this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R.
+- It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF).
+- By default the ANTENNA should be shown.
+- Once changed the new selection should always be shown and remembered.
 
 #### 3.2.7- Add to the _Cable Setting_ area a new pulldown menu titled _source_, this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF)
 
 **Todo**: 
+- 
