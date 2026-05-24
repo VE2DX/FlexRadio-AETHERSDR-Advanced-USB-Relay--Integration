@@ -37,12 +37,17 @@ While the FlexRadio integration of the 8-bit USB Relay PCB offers a great, low-c
 
 The present approach by FlexRadio in the latest version, as of this document's publication, is flawed in a couple of different ways. It does not address the specific requirements of SO2R. It lacks flexibility and does not address the specific requirements for multiband antennas, etc.
 
-#### 3.1.1- The SOURCE is always output oriented, this is ok and gives the user some flexibility, but in SO2R you need to be able to manage a group of output. Thus offering an SO2R mode in the top of this window, moving the Source pull down in that same upper area and SO2R mode again in that same area would address this concern (item 1 in the image).
+#### 3.1.1- The _SOURCE_ is always output oriented, this is ok and gives the user some flexibility, but in SO2R you need to be able to manage a group of output. Thus offering an SO2R mode in the top of this window, moving the Source pull down in that same upper area and SO2R mode again in that same area would address this concern (item 1 in the image).
 
 #### 3.1.2- The band select or frequency range selection is limited to ONE band or frequency range; this should be replaced by a pull-down where, in the band mode, it would list all the possible bands. And in frequency range mode this pull down would look like the following image.
 
 <img width="472" height="381" alt="image" src="https://github.com/user-attachments/assets/0317f9a2-b919-44ce-8e38-092fe5832ca1" />
 
+#### 3.1.2- The present support of USB chipsets in the radios OS is very limited. Only 
 
 
+### 3.1- AETHERSDR present approach.
 
+_Insert Image here_
+
+At present the AETHERSDR implementation of the 8-BIT is at 
