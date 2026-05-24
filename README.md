@@ -37,7 +37,7 @@ While the **FlexRadio** integration of the 8-bit USB Relay PCB offers a great, l
 #### - Adding support of CH340/341 chip sets to the Flexradio Radio OS, to be able to support, at the radio end, more advanced hardware like 16 relay USB PCBs, the WinKeyer, etc...
 #### - And VE2DX Electronics Design Inc. Software Defined Interlock(c) (SDI(c)) to prevent two radios from transmitting or receiving on the same antenna or band.
 
-As noted in above this project is not only to help in the evolution of **AETHERSDR**, but also in the evolution of FlexRadio radios to get better USB chipset support to expand the possibilities of the platform.
+As noted above this project is not only to help in the evolution of **AETHERSDR**, but also in the evolution of FlexRadio radios to get better USB chipset support to expand the possibilities of the platform.
 
 ## 3- Technical Information.
 
