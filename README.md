@@ -57,7 +57,7 @@ _Insert Image here_
 
 At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its begining being in the early days of the project. it has a couple of bugs that will be pointed out in this document that are probably related to the fact that this portion of the project is not finished.
 
-### BUG:
+### BUGS:
 
 **Bug 1:** The Band/Frequency field (last column) does not work.
 **Bug 2:** If enter is keyed at anytime within the window, the USB Cables window crashes and can only be recalled if the AETHERSDR is closed and restarted.
@@ -79,6 +79,11 @@ At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its
 
 **Todo**: Add to the **Cable Setting** area a new pulldown menu titled **MODE**, this should trigger a pulldown menu with the following options; Manual, SO2R.  By default the Manual should be shown, once changed the new selection should always be shown and remembered.
 
-#### 3.2.4- Add to the _Cable Setting_ area a new pulldown menu titled _MODE_, this should trigger a pulldown menu with the following options; Manual, SO2R
+#### 3.2.5- Add to the _Cable Setting_ area a new pulldown menu titled _MODE_, this should trigger a pulldown menu with the following options; Manual, SO2R
 
-**Todo**: Add to the **Cable Setting** area a new pulldown menu titled **MODE**, this should trigger a pulldown menu with the following options; Manual, SO2R.  By default the Manual should be shown, once changed the new selection should always be shown and remembered.
+**Todo**: Add to the **Cable Setting** area a new pulldown menu titled **MODE**, this should trigger a pulldown menu with the following options; Manual, SO2R.  By default the MANUAL should be shown, once changed the new selection should always be shown and remembered.
+
+#### 3.2.6- Add to the _Cable Setting_ area a new pulldown menu titled _SO2R Mode_, this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF)
+
+**Todo**: Add to the **Cable Setting** area a new pulldown menu titled **SO2R MODE**, this should this should ONLY show up if the _MODE_ option fro, 3.2.5 is set to SO2R. It should trigger a pulldown menu with the following options; Antenna, Band Pass Filter (BPF). By default the ANTENNA should be shown, once changed the new selection should always be shown and remembered.
+
