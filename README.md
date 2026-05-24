@@ -53,7 +53,7 @@ The present approach by **FlexRadio** in the latest version, as of this document
 
 ### 3.2- AETHERSDR present approach.
 
-_Insert Image here_
+<img width="1014" height="786" alt="image" src="https://github.com/user-attachments/assets/a27d1011-b9d4-4152-8076-1f35f67eb917" />
 
 At present the **AETHERSDR** implementation of the 8-BIT USB Relay PCB is at its begining being in the early days of the project. it has a couple of bugs that will be pointed out in this document that are probably related to the fact that this portion of the project is not finished.
 
