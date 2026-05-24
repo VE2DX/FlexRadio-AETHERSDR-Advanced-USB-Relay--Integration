@@ -23,24 +23,22 @@ A Canadian-based Ham Radio Electronics company founded in 2020 and closed in lat
 
 ## 2- Context
 
-This project for the USB relay interfacing as a possible advanced evolution, and added SO2R support will be submitted to the **AETHERSDR team** 
+This project is for advanced evolution and adds SO2R support for USB relay interfacing. It will be submitted to the **AETHERSDR team** 
 
-If FlexRadio is interrested in the principles stated in this document they must contact the author for authorisation to implementation in their hardwares, firmware and/or softwares.
+If FlexRadio is interested in the principles stated in this document, they must contact the author for authorization to implement them in their hardware, firmware, and/or software.
 
-While the **FlexRadio** integration of the 8-bit USB Relay PCB offers a great, low-cost, simple interface, for the integration for antenna and other automated control, it lacks some badly needed improvements and flexibilities. Among those;
+While the **FlexRadio** integration of the 8-bit USB Relay PCB offers a great, low-cost, simple interface for integrating antenna and other automated controls, it lacks some badly needed improvements and flexibility. Among those;
 
-#### - The possibility to assign multiple band or frequency ranges to a single relay output to address multiband antennas like a common 80/40 dipole or the very common tribander yagi.
-
+#### - The possibility to assign multiple bands or frequency ranges to a single relay output to address multiband antennas like a common 80/40 dipole or the very common tribander yagi.
 #### - A better SO2R integration, where two remote antenna switching boxes or a "Two By" SO2R remote antenna box can be managed.
 #### - Better Band Pass Filter (BPF) support.
-#### - Better integration of multiple USB Relay PCB.
+#### - Better integration of multiple USB Relay PCBs.
 #### - VE2DX Electronics Design Inc. Software Defined Interlock(c) (SDI(c)) to prevent two radios from transmitting or receiving on the same antenna or band.
 #### - And adding support of CH340/341 chip sets to the Flexradio Radio OS, to be able to support, at the radio end, more advanced hardware like 16 relay USB PCBs, the WinKeyer, etc...
 
-As noted above this project is not only to help in the evolution of **AETHERSDR**, but also in the evolution of FlexRadio radios to get better USB chipset support to expand the possibilities of the platform.
+As noted above, this project is not only about advancing **AETHERSDR** but also about improving USB chipset support for FlexRadio radios to expand the platform's capabilities.
 
 ## 3- Technical Information.
-
 ### 3.1- FlexRadio present approach.
 
 <img width="1146" height="798" alt="image" src="https://github.com/user-attachments/assets/2f2c3f9d-eaeb-423b-bdd3-3299f9379149" />
