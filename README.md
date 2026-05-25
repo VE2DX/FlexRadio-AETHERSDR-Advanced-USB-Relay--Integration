@@ -47,7 +47,7 @@ As noted above, this project is not only about advancing **AETHERSDR** but also 
 
 The present approach by **FlexRadio** in the latest version, as of this document's publication, is flawed in a couple of different ways; 
 - does not address the specific requirements for multiband antennas.
-- - It does not address the specific requirements of SO2R.
+- It does not address the specific requirements of SO2R.
 - It does not address the specific requirements of BPF.
 - It lacks flexibility.
 
