@@ -29,8 +29,6 @@ Proposed changes in **AETHERSDR** of USB Relay integration for a more **advanced
 
 This project is for an advanced evolution in **AETHERSDR** of the USB relay interface, and adds SO2R and SDI(c) support. It will be submitted to the **AETHERSDR team**.
 
-If FlexRadio is interested in the principles stated in this document, they must contact the author for authorization to implement them in their hardware, firmware, and/or software.
-
 While the **FlexRadio** integration of the 8-bit USB Relay PCB offers a great, low-cost, simple interface for integrating antenna and other automated controls, it lacks some badly needed improvements and flexibility. Among those;
 
 #### - The possibility to assign multiple bands or frequency ranges to a single relay output to address multiband antennas like a common 80/40 dipole or the very common tribander yagi.
