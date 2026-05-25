@@ -19,7 +19,7 @@ A Canadian-based Ham Radio Electronics company founded in 2020 and closed in lat
 
 ## 1- Introduction
 
-Proposed changes in **AETHERSDR** of USB Relay integration for a more **advanced integration** offering more **flexibility** and better **SO2R integration**.
+Proposed changes in **AETHERSDR** of USB Relay integration for a more **advanced integration** offering more **flexibility** and adds **SO2R integration** and **Software Defined Interlock(c) SDI(c)**.
 
 ## 2- Context
 
