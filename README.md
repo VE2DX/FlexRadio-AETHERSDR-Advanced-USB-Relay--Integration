@@ -151,19 +151,18 @@ if the _MODE_ option fro, 3.2.5 is set to SO2R.
     - this should ONLY show up if the **MODE** option fro, 3.2.5 is set to **SO2R**
     - When the SO2R PTT is clicked on, a pull-down should show Manual, Grouped.
 
-### 3.2- AETHERSDR present approach.
- 
+
 <img width="596" height="118" alt="image" src="https://github.com/user-attachments/assets/6efd4a54-ac1f-4b00-afa9-2891f5b5c96c" />
- 
+
+ **Todo**: 
+if the _MODE_ option fro, 3.2.5 is set to SO2R.
+  
     - When the **SO2R PTT** is in manual:
       - Add a new column to the right side of the existing ones with the TX options.
       - For each output, these are controlled separately.
 
- 
 <img width="199" height="508" alt="image" src="https://github.com/user-attachments/assets/b301b560-473a-4755-8308-1ebc970130d0" />
 
- ### 3.2- AETHERSDR present approach.
- 
     - When the **SO2R PTT** is in Grouped:
       - TAdd a new column to the right side of the existing ones with the TX options.
       - For each output, these are controlled separately.  
