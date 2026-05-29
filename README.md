@@ -150,9 +150,11 @@ if the _MODE_ option fro, 3.2.5 is set to SO2R.
   - Add to the **Cable Setting** area a new pulldown menu titled **SO2R PTT**
     - this should ONLY show up if the **MODE** option fro, 3.2.5 is set to **SO2R**
     - When the SO2R PTT is clicked on, a pull-down should show Manual, Grouped.
+      
     - When the **SO2R PTT** is in manual:
       - Add a new column to the right side of the existing ones with the TX options.
       - For each output, these are controlled separately.
+        
     - When the **SO2R PTT** is in Grouped:
       - TAdd a new column to the right side of the existing ones with the TX options.
       - For each output, these are controlled separately.  
