@@ -153,7 +153,7 @@ if the _MODE_ option fro, 3.2.5 is set to SO2R.
       
     - When the **SO2R PTT** is in manual:
    
-    - <img width="596" height="118" alt="image" src="https://github.com/user-attachments/assets/abfa2d24-9efb-452a-808a-323732a6da7e" />
+    <img width="596" height="118" alt="image" src="https://github.com/user-attachments/assets/abfa2d24-9efb-452a-808a-323732a6da7e" />
 
       - Add a new column to the right side of the existing ones with the TX options.
       - For each output, these are controlled separately.
